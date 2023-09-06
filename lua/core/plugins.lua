@@ -20,7 +20,15 @@ local plugins = {
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'nvim-treesitter/nvim-treesitter',
-  'nvim-lualine/lualine.nvim'
+  'nvim-lualine/lualine.nvim',
+
+  -- lsp
+  'hrsh7th/nvim-cmp',
+  'hrsh7th/cmp-nvim-lsp',
+  "williamboman/mason.nvim",
+  "neovim/nvim-lspconfig",
+  "williamboman/mason-lspconfig.nvim",
+  "glepnir/lspsaga.nvim"
 }
 
 local opts = {}
