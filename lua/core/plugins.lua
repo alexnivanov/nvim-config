@@ -21,6 +21,7 @@ local plugins = {
   'nvim-tree/nvim-web-devicons',
   'nvim-treesitter/nvim-treesitter',
   'nvim-lualine/lualine.nvim',
+  'Pocco81/auto-save.nvim',
 
   -- lsp
   'hrsh7th/nvim-cmp',
