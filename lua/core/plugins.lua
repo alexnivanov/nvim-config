@@ -29,7 +29,7 @@ local plugins = {
   "williamboman/mason.nvim",
   "neovim/nvim-lspconfig",
   "williamboman/mason-lspconfig.nvim",
-  "glepnir/lspsaga.nvim"
+  'nvimdev/lspsaga.nvim'
 }
 
 local opts = {}
