@@ -1,7 +1,5 @@
 require("mason").setup()
 
-local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
-
 require('lspsaga').setup({})
 
 vim.keymap.set('n', 'gd', ':Lspsaga goto_definition<CR>')
@@ -9,6 +7,8 @@ vim.keymap.set('n', 'gd', ':Lspsaga goto_definition<CR>')
 require("mason-lspconfig").setup {
     ensure_installed = { "lua_ls", "clangd", "pyright" },
 }
+
+local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 require("lspconfig").lua_ls.setup {
   capabilities = capabilities,
