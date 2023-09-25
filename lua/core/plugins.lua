@@ -14,8 +14,15 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
   'navarasu/onedark.nvim',
   {
-	  'nvim-telescope/telescope.nvim',
-	  dependencies = { {'nvim-lua/plenary.nvim'} }
+    'nvim-telescope/telescope.nvim',
+    dependencies = { { 'nvim-lua/plenary.nvim' } }
+  },
+  {
+    "nvimdev/guard.nvim",
+    -- Builtin configuration, optional
+    dependencies = {
+      "nvimdev/guard-collection",
+    },
   },
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
@@ -35,4 +42,3 @@ local plugins = {
 local opts = {}
 
 require("lazy").setup(plugins, opts)
-
