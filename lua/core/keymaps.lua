@@ -7,3 +7,5 @@ vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 -- Clear search highlighting
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 
+-- Quit all without saving
+vim.keymap.set('n', '<leader>q', ':qa<CR>')
