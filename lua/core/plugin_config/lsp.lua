@@ -54,7 +54,7 @@ cmp.setup({
     ['<CR>'] = cmp.mapping.confirm({ select = false }),
 
     -- Ctrl + space triggers completion menu
-    ['<c-o>'] = cmp.mapping.complete(),
+    ['<c-l>'] = cmp.mapping.complete(),
   }),
   snippet = {
     expand = function(args)
