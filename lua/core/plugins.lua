@@ -26,20 +26,13 @@ local plugins = {
     'nvim-telescope/telescope.nvim',
     dependencies = { { 'nvim-lua/plenary.nvim' } }
   },
-  {
-    "nvimdev/guard.nvim",
-    -- Builtin configuration, optional
-    dependencies = {
-      "nvimdev/guard-collection",
-    },
-  },
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'nvim-treesitter/nvim-treesitter',
   'nvim-lualine/lualine.nvim',
   'Pocco81/auto-save.nvim',
 
-    -- lsp
+  -- lsp
   'hrsh7th/nvim-cmp',
   'hrsh7th/cmp-nvim-lsp',
   "neovim/nvim-lspconfig",
