@@ -11,6 +11,14 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function()
+    require "lazy".update({
+      show = false,
+    })
+  end
+})
+
 local plugins = {
   {
     "folke/which-key.nvim",
