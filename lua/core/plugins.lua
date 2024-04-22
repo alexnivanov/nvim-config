@@ -39,6 +39,7 @@ local plugins = {
   'nvim-treesitter/nvim-treesitter',
   'nvim-lualine/lualine.nvim',
   'Pocco81/auto-save.nvim',
+  'romgrk/barbar.nvim',
 
   -- git
   'airblade/vim-gitgutter',
