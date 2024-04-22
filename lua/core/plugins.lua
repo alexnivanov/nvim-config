@@ -40,6 +40,9 @@ local plugins = {
   'nvim-lualine/lualine.nvim',
   'Pocco81/auto-save.nvim',
 
+  -- git
+  'airblade/vim-gitgutter',
+
   -- lsp
   'hrsh7th/nvim-cmp',
   'hrsh7th/cmp-nvim-lsp',
