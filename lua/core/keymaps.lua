@@ -4,6 +4,7 @@ vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
 vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
+vim.keymap.set('n', '<c-q>', ':q<CR>')
 vim.keymap.set('n', '<c-w>', ':BufferClose<CR>')
 
 vim.keymap.set('n', '<c-b>', ':GitBlameToggle<CR>', { desc = 'Toggle git blame' })
