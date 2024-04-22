@@ -42,6 +42,7 @@ local plugins = {
 
   -- git
   'airblade/vim-gitgutter',
+  'f-person/git-blame.nvim',
 
   -- lsp
   'hrsh7th/nvim-cmp',
