@@ -11,6 +11,7 @@ vim.keymap.set('n', '<c-w>', ':BufferClose<CR>')
 vim.keymap.set('n', '[t', ':BufferPrevious<cr>')
 vim.keymap.set('n', ']t', ':BufferNext<cr>')
 
+vim.keymap.set('n', '<c-`>', ':ToggleTerm<cr>')
 
 vim.keymap.set('n', '<c-b>', ':GitBlameToggle<CR>', { desc = 'Toggle git blame' })
 

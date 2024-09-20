@@ -20,6 +20,7 @@ vim.api.nvim_create_autocmd("VimEnter", {
 })
 
 local plugins = {
+  { 'akinsho/toggleterm.nvim', version = "*", config = true },
   {
     "folke/which-key.nvim",
     event = "VeryLazy",
