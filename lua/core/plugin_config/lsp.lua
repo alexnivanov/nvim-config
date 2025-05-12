@@ -37,6 +37,7 @@ end
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
+  automatic_enable = false,
   ensure_installed = {},
   handlers = {
     default_setup,
